@@ -18,7 +18,7 @@ exports.list = async (req, res) => {
         );
         const totalCount = totalRows[0].count;
 
-        // console.log(rows,page);
+        console.log(rows,page);
         res.json(rows);
         // res.json({
         //     data: rows,
